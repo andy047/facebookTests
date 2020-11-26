@@ -37,17 +37,5 @@ public class FacebookHomePage {
     public void resultados(){
        System.out.println(driver.findElement(results).getText());
     }
-/*
-    public boolean getResult(){
-        List<WebElement> resultList = driver.findElements(results);
-        resultList.get(0).getAttribute()
-        for (String result:
-             ) {
 
-        }
-
-        //return driver.findElement(result).getAttribute();
-    }
-
-    */
 }
